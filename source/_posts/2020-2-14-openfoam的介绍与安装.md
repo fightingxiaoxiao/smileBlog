@@ -34,5 +34,5 @@ OpenFOAM主要有两大分支，一是[基金会版(.org)](www.openfoam.org)，�
 ## 环境配置
 
 ```bash
-sudo pacman -S gcc flex cmake openmpi git
+sudo pacman -S gcc flex cmake git openmpi
 ```
