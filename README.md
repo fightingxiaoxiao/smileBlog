@@ -4,5 +4,5 @@
 
 部署的网址包括
 
-* [https://fightingxiaoxiao.github.io](https://fightingxiaoxiao.github.io)
-* [http://www.smilemax.top]
+* <https://fightingxiaoxiao.github.io>
+* <http://www.smilemax.top>
