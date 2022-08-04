@@ -77,9 +77,9 @@ music:
     enable: true
     show: 听听音乐
   autoHide: true    # hide automaticaly
-  server: netease   #require music platform: netease, tencent, kugou, xiami, baidu
+  server: tencent   #require music platform: netease, tencent, kugou, xiami, baidu
   type: playlist    #require song, playlist, album, search, artist
-  id: 503838841     #require song id / playlist id / album id / search keyword
+  id: 1167623939     #require song id / playlist id / album id / search keyword
   fixed: true       # 开启吸底模式
   autoplay: true   # 是否自动播放
   theme: '#42b983'
@@ -233,7 +233,7 @@ myProjects:
 # If you don't want to display this `My Skills` content, you can deactivate or delete this configuration.
 # 在“关于”页面配置"我的技能"信息，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
 mySkills:
-  enable: fasle
+  enable: false
   data:
     Java:
       background: 'linear-gradient(to right, #FF0066 0%, #FF00CC 100%)'
@@ -260,9 +260,7 @@ mySkills:
 myGallery:
   enable: true
   data:
-    - /medias/featureimages/0.jpg
-    - /medias/featureimages/1.jpg
-    - /medias/featureimages/2.jpg
+  - https://smilemax-1300318971.cos.ap-chengdu.myqcloud.com/blogImage/keqing.JPG
 
 # Whether to display post-calender in the `archive` page
 # 设置在归档页面中是否显示'文章日历'控件
@@ -463,31 +461,17 @@ libs:
 # The post featured images that needs to be displayed when there is no image.
 # 无文章特色图片时需要显示的文章特色图片.
 featureImages:
-- /medias/featureimages/0.jpg
-- /medias/featureimages/1.jpg
-- /medias/featureimages/2.jpg
-- /medias/featureimages/3.jpg
-- /medias/featureimages/4.jpg
-- /medias/featureimages/5.jpg
-- /medias/featureimages/6.jpg
-- /medias/featureimages/7.jpg
-- /medias/featureimages/8.jpg
-- /medias/featureimages/9.jpg
-- /medias/featureimages/10.jpg
-- /medias/featureimages/11.jpg
-- /medias/featureimages/12.jpg
-- /medias/featureimages/13.jpg
-- /medias/featureimages/14.jpg
-- /medias/featureimages/15.jpg
-- /medias/featureimages/16.jpg
-- /medias/featureimages/17.jpg
-- /medias/featureimages/18.jpg
-- /medias/featureimages/19.jpg
-- /medias/featureimages/20.jpg
-- /medias/featureimages/21.jpg
-- /medias/featureimages/22.jpg
-- /medias/featureimages/23.jpg
-
+- https://smilemax-1300318971.cos.ap-chengdu.myqcloud.com/blogImage/aimi%26babala.JPG
+- https://smilemax-1300318971.cos.ap-chengdu.myqcloud.com/blogImage/babala.jpg
+- https://smilemax-1300318971.cos.ap-chengdu.myqcloud.com/blogImage/diona.JPG
+#- https://smilemax-1300318971.cos.ap-chengdu.myqcloud.com/blogImage/girl.JPG
+- https://smilemax-1300318971.cos.ap-chengdu.myqcloud.com/blogImage/eula.JPG
+- https://smilemax-1300318971.cos.ap-chengdu.myqcloud.com/blogImage/kazuha.JPG
+- https://smilemax-1300318971.cos.ap-chengdu.myqcloud.com/blogImage/snow.JPG
+- https://smilemax-1300318971.cos.ap-chengdu.myqcloud.com/blogImage/hutao.JPG
+- https://smilemax-1300318971.cos.ap-chengdu.myqcloud.com/blogImage/ayaka.JPG
+- https://smilemax-1300318971.cos.ap-chengdu.myqcloud.com/blogImage/keqing.JPG
+- https://smilemax-1300318971.cos.ap-chengdu.myqcloud.com/blogImage/aimi_2.JPG
 # default configs that the default policy for every articles/posts
 # default 配置文章的默认转载规则
 
