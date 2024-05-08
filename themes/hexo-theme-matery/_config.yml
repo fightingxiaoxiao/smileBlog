@@ -81,7 +81,7 @@ music:
   type: playlist    #require song, playlist, album, search, artist
   id: 1167623939     #require song id / playlist id / album id / search keyword
   fixed: true       # 开启吸底模式
-  autoplay: true   # 是否自动播放
+  autoplay: false   # 是否自动播放
   theme: '#42b983'
   loop: 'all'       # 音频循环播放, 可选值: 'all', 'one', 'none'
   order: 'random'   # 音频循环顺序, 可选值: 'list', 'random'
@@ -181,6 +181,7 @@ copyright:
 mathjax:
   enable: true
   cdn: https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+  #cdn: https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_CHTML
 
 # Post word count, reading duration, site total word count.
 # Before you activate, please confirm that you have installed the hexo-wordcount plugin,
